@@ -16,11 +16,12 @@
         <form method="post" action="arithmetic" >
             First: <input type ="text" name ="first"> <br>
             Second: <input type ="text" name ="second"> <br>
-            <input  type = "submit"  name = "add"  value ="+">
-            <input  type = "submit"  name = "sub"  value ="-">
-            <input  type = "submit"  name = "multiply"  value ="*">
-            <input  type = "submit"  name = "divide"  value ="%">
+            <input  type = "submit"  name = "op"  value ="+">
+            <input  type = "submit"  name = "op"  value ="-">
+            <input  type = "submit"  name = "op"  value ="*">
+            <input  type = "submit"  name = "op"  value ="%">
         </form>
+         <p>${error}</p>
         
         <p><a href="age">Arithmetic Calculator</a></p>
     </body>
